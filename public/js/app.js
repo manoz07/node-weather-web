@@ -23,7 +23,10 @@ weatherForm.addEventListener("submit", (e) => {
           "temperature is " +
           data.forecast.temperature +
           " feels like" +
-          data.forecast.feelslike;
+          data.forecast.feelslike +
+          " and humidity is " +
+          data.forecast.humidity +
+          "%";
 
       message2.textContent = data.location;
     });
